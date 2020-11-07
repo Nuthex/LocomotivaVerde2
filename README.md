@@ -47,22 +47,22 @@ Si è fatto uso di Nested Routes che riportano a:
 - Gestione Utenti
 - Gestione Prenotazioni
   
-  ##### GESTIONE TRENI:
-  Qui abbiamo la possibiltà di visualizzare tutti i treni disponibili, di aggiornarne alcuni campi ed eventualmente di
-  eliminare una corsa, e di creare un nuovo treno.
-  Attenzione durante la creazione perchè alcuni campi devono essere obbligatoriamente specificati o non possono sussistere
-  duplicati.
+##### GESTIONE TRENI:
+Qui abbiamo la possibiltà di visualizzare tutti i treni disponibili, di aggiornarne alcuni campi ed eventualmente di
+eliminare una corsa, e di creare un nuovo treno.
+Attenzione durante la creazione perchè alcuni campi devono essere obbligatoriamente specificati o non possono sussistere
+duplicati.
   
-  ##### GESTIONE UTENTI:
-  Simile alla gestione treni.
+##### GESTIONE UTENTI:
+Simile alla gestione treni.
   
-  ##### GESTIONE PENOTAZIONI:
-  Lista dello storico mostra tutte le prenotazioni, sono stati inseriti due bottoni mostra e nascondi da sfruttare in casi 
-  in cui la lista sia troppo lunga, di default la visualizzazzione è posta a false.
-  Vi è la possibilità poi di vedere le prenotazioni per utente preso per email o per treno preso per numero corsa.
-  NOTA:
-  Elencare gli utenti per come è stato fatto non è un ottima idea poichè per una lista di ad esempio mille utenti, la selezione 
-  risulterebbe difficile.
+##### GESTIONE PENOTAZIONI:
+Lista dello storico mostra tutte le prenotazioni, sono stati inseriti due bottoni mostra e nascondi da sfruttare in casi 
+in cui la lista sia troppo lunga, di default la visualizzazzione è posta a false.
+Vi è la possibilità poi di vedere le prenotazioni per utente preso per email o per treno preso per numero corsa.
+NOTA:
+Elencare gli utenti per come è stato fatto non è un ottima idea poichè per una lista di ad esempio mille utenti, la selezione 
+risulterebbe difficile.
   
 La web app proposta è distaccata dall'idea di una vera e propia web app che potrebbe essere effettivamente utilizzata, ma è
 stata realizzata a scopo di apprendimento e test delle varie funzionalità che spring ed angular offrono.
