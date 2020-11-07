@@ -101,7 +101,7 @@ CREATE TABLE prenotazione(
 );  
 
 ## Informazioni aggiuntive:
-Nei controller ad esempio in TrenoController per eliminare un treno è stato volutamente lasciato RequestMethod.Post,    
+Nei controller, ad esempio in TrenoController per eliminare un treno, è stato volutamente lasciato RequestMethod.Post,    
 ma è stato anche testato in questo caso specifico con RequestMethod.Delete.  
 (Se si vuole usare delete e non post va cambiato ovviamente anche sul front-end l'http request usato).  
 
