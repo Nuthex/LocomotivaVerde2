@@ -63,7 +63,8 @@ Vi è la possibilità poi di vedere le prenotazioni per utente preso per email o
 NOTA:
 Elencare gli utenti per come è stato fatto non è un ottima idea poichè per una lista di ad esempio mille utenti, la selezione 
 risulterebbe difficile.
-  
+
+
 La web app proposta è distaccata dall'idea di una vera e propia web app che potrebbe essere effettivamente utilizzata, ma è
 stata realizzata a scopo di apprendimento e test delle varie funzionalità che spring ed angular offrono.
 (Il design infatti è assente e si è fatto uso di  poche e semplici linee di codice scss).
