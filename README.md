@@ -35,9 +35,9 @@ Parliamo di una Single Page App (SPA), che presenta nell' header un logo e due b
 Nella home abbiamo la possibilità di selezionare uno degli utenti disponibili nel db preso per email, eseguire il login,  
 cercare un treno che vada da città "x" a città "y" e prenotare la relativa corsa.  
 Sono stati implementati meccanismi per evitare che si effettui una prenotazione se nessun utente è stato selezionato o se    
-i posti disponibili sono pari a zero. Il tutto è contornato da vari dialog che chiedono conferma ed informano l'utente su  
+i posti disponibili sono pari a zero. Il tutto è contornato da varie finestre di dialogo che chiedono conferma ed informano l'utente su  
 eventuali problemi.  
-facendo click su prenota, verrà scalato automaticamente il contatore dei posti disponibili della relativa corsa.  
+Facendo click su prenota, verrà scalato automaticamente il contatore dei posti disponibili della relativa corsa.  
 NOTA:  
 Non sono implementati meccanismi di locking, ma si è fatto uso solo della notazione @Transactional.  
 
