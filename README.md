@@ -72,8 +72,8 @@ stata realizzata a scopo di apprendimento e test delle varie funzionalità che s
 ---
 
 ## Configurazione DB Postgres:
-E' stato creato un db "locomotivaverde2" con pgAdmin 4.  
-Sulla Query Console di IntelliJ é stato fatto l'execute come segue per creare le tabelle "treno", "utente" e "prenotazione":
+E' stato creato un db "locomotivaverde2" con pgAdmin 4.   
+Sulla Query Console di IntelliJ é stato fatto l'execute come segue per creare le tabelle "treno", "utente" e "prenotazione":  
 CREATE TABLE treno(  
   id SERIAL PRIMARY KEY,  
   origine VARCHAR(20),  
@@ -101,9 +101,9 @@ CREATE TABLE prenotazione(
 );  
 
 ## Informazioni aggiuntive:
-Nei controller ad esempio in TrenoController per eliminare un treno è stato volutamente lasciato come RequestMethod.Post,  
-ma è stato anche testato in questo caso specifico con RequestMethod.Delete.
-(Se si vuole usare delete e non post va cambiato ovviamente anche sul front-end l'http request usato).
+Nei controller ad esempio in TrenoController per eliminare un treno è stato volutamente lasciato RequestMethod.Post,    
+ma è stato anche testato in questo caso specifico con RequestMethod.Delete.  
+(Se si vuole usare delete e non post va cambiato ovviamente anche sul front-end l'http request usato).  
 
 Si allegano screenshoot di possibili contenuti delle tabelle del db.
 
