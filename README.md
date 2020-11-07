@@ -61,7 +61,7 @@ Lista dello storico mostra tutte le prenotazioni, sono stati inseriti due botton
 in cui la lista sia troppo lunga, di default la visualizzazzione è posta a false.  
 Vi è la possibilità poi di vedere le prenotazioni per utente preso per email o per treno preso per numero corsa.  
 NOTA:  
-Elencare gli utenti per come è stato fatto non è un ottima idea poichè per una lista di ad esempio mille utenti, la selezione  
+Elencare gli utenti per come è stato fatto non è un' ottima idea poichè per una lista di ad esempio mille utenti, la selezione  
 risulterebbe difficile.  
 
 
