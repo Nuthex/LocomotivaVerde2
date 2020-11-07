@@ -43,20 +43,20 @@ Non sono implementati meccanismi di locking, ma si è fatto uso solo della notaz
 
 ### SEZIONE GESTIONE:
 Si è fatto uso di Nested Routes che riportano a:
-  -Gestione Treni 
-  -Gestione Utenti
-  -Gestione Prenotazioni
+- Gestione Treni 
+- Gestione Utenti
+- Gestione Prenotazioni
   
-  #### GESTIONE TRENI:
+  ##### GESTIONE TRENI:
   Qui abbiamo la possibiltà di visualizzare tutti i treni disponibili, di aggiornarne alcuni campi ed eventualmente di
   eliminare una corsa, e di creare un nuovo treno.
   Attenzione durante la creazione perchè alcuni campi devono essere obbligatoriamente specificati o non possono sussistere
   duplicati.
   
-  #### GESTIONE UTENTI:
+  ##### GESTIONE UTENTI:
   Simile alla gestione treni.
   
-  #### GESTIONE PENOTAZIONI:
+  ##### GESTIONE PENOTAZIONI:
   Lista dello storico mostra tutte le prenotazioni, sono stati inseriti due bottoni mostra e nascondi da sfruttare in casi 
   in cui la lista sia troppo lunga, di default la visualizzazzione è posta a false.
   Vi è la possibilità poi di vedere le prenotazioni per utente preso per email o per treno preso per numero corsa.
