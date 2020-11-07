@@ -49,7 +49,7 @@ Si è fatto uso di Nested Routes che riportano a:
   
 ##### GESTIONE TRENI:
 Qui abbiamo la possibiltà di visualizzare tutti i treni disponibili, di aggiornarne alcuni campi ed eventualmente di  
-eliminare una corsa, e di creare un nuovo treno.  
+eliminare una corsa e di creare un nuovo treno.  
 Attenzione durante la creazione perchè alcuni campi devono essere obbligatoriamente specificati o non possono sussistere  
 duplicati.  
   
