@@ -68,3 +68,45 @@ risulterebbe difficile.
 La web app proposta è distaccata dall'idea di una vera e propia web app che potrebbe essere effettivamente utilizzata, ma è  
 stata realizzata a scopo di apprendimento e test delle varie funzionalità che spring ed angular offrono.  
 (Il design infatti è assente e si è fatto uso di  poche e semplici linee di codice scss).  
+
+---
+
+## Configurazione DB Postgres:
+E' stato creato un db "locomotivaverde2" con pgAdmin 4.  
+Sulla Query Console di IntelliJ é stato fatto l'execute come segue per creare le tabelle "treno", "utente" e "prenotazione":
+CREATE TABLE treno(  
+  id SERIAL PRIMARY KEY,  
+  origine VARCHAR(20),  
+  destinazione VARCHAR(20),  
+  corsa INT UNIQUE,  
+  partenza TIMESTAMP WITH TIME ZONE,  
+  arrivo TIMESTAMP WITH TIME ZONE,  
+  diretto boolean,  
+  postidisponibili INT  
+);  
+
+CREATE TABLE utente(  
+  id SERIAL PRIMARY KEY,  
+  nome VARCHAR(20),  
+  cognome VARCHAR(20),  
+  email VARCHAR(30) UNIQUE  
+);  
+
+CREATE TABLE prenotazione(  
+  id SERIAL PRIMARY KEY,  
+  compratore INT,  
+  email VARCHAR(30),  
+  treno INT,  
+  corsa INT  
+);  
+
+## Informazioni aggiuntive:
+Nei controller ad esempio in TrenoController per eliminare un treno è stato volutamente lasciato come RequestMethod.Post,  
+ma è stato anche testato in questo caso specifico con RequestMethod.Delete.
+(Se si vuole usare delete e non post va cambiato ovviamente anche sul front-end l'http request usato).
+
+Si allegano screenshoot di possibili contenuti delle tabelle del db.
+
+---
+
+Capuano F.
