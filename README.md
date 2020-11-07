@@ -1,7 +1,9 @@
 # LocomotivaVerde2
 La mia prima web app! [ PostgreSQL - Spring Boot - Angular ]
 ---
+
 ## Descrizione:
+
 Questa è la mia prima web app funzionante, realizzata per un esame universitario.
 L' idea è quella di realizzare una piccola pagina riguardante un servizio di trasporto ferroviario, con la possibilità di:
   -Visualizzare le corse che vanno da città "x" a città "y"
@@ -13,14 +15,20 @@ L' idea è quella di realizzare una piccola pagina riguardante un servizio di tr
   -Visualizzare lo storico delle prenotazioni
   -Visualizzare la lista delle prenotazioni dell'utente "k" la cui email è "j"
   -Visualizzare la lista delle prenotazioni per la corsa "z"
+  
 ---
+
 ## Strumenti:
+
 La web app è stata realizzata con:
   -PostgreSQL
   -Spring Boot (IDE IntelliJ Idea)
   -Angular (IDE Visual Studio Code)
+  
 ---
+
 ## Struttura:
+
 Parliamo di una Single Page App (SPA), che presenta nell header un logo e due bottoni "Home" e "Gestione".
 
 SEZIONE HOME:
