@@ -32,12 +32,7 @@ La web app è stata realizzata con:
 Parliamo di una Single Page App (SPA), che presenta nell' header un logo e due bottoni "Home" e "Gestione".
 
 ### SEZIONE HOME:
-Nella home abbiamo la possibilità di selezionare uno degli utenti disponibili nel db preso per email, eseguire il login,  
-cercare un treno che vada da città "x" a città "y" e prenotare la relativa corsa.  
-Sono stati inseriti meccanismi per evitare che si effettui una prenotazione se nessun utente è stato selezionato o se    
-i posti disponibili sono pari a zero. Il tutto è contornato da varie finestre di dialogo che chiedono conferma ed informano l'utente su  
-eventuali problemi.  
-Facendo click su prenota, verrà scalato automaticamente il contatore dei posti disponibili della relativa corsa.  
+Nella home abbiamo la possibilità di selezionare uno degli utenti disponibili nel db preso per email, eseguire il login,cercare un treno che vada da città "x" a città "y" e prenotare la relativa corsa. Sono stati inseriti meccanismi per evitare che si effettui una prenotazione se nessun utente è stato selezionato o se i posti disponibili sono pari a zero. Il tutto è contornato da varie finestre di dialogo che chiedono conferma ed informano l'utente su eventuali problemi.Facendo click su prenota, verrà scalato automaticamente il contatore dei posti disponibili della relativa corsa.  
 NOTA:  
 Non sono implementati meccanismi di locking, ma si è fatto uso solo della notazione @Transactional.  
 
@@ -48,26 +43,18 @@ Si è fatto uso di Nested Routes che riportano a:
 - Gestione Prenotazioni;
   
 ##### GESTIONE TRENI:
-Qui abbiamo la possibiltà di visualizzare tutti i treni disponibili, di aggiornarne alcuni campi ed eventualmente di  
-eliminare una corsa e di creare un nuovo treno.  
-Attenzione durante la creazione perchè alcuni campi devono essere obbligatoriamente specificati o non possono sussistere  
-duplicati.  
+Qui abbiamo la possibiltà di visualizzare tutti i treni disponibili, di aggiornarne alcuni campi ed eventualmente di eliminare una corsa e di creare un nuovo treno. Attenzione durante la creazione perchè alcuni campi devono essere obbligatoriamente specificati o non possono sussistere duplicati.  
   
 ##### GESTIONE UTENTI:
 Simile alla gestione treni.  
   
 ##### GESTIONE PENOTAZIONI:
-Lista dello storico mostra tutte le prenotazioni, sono stati inseriti due bottoni mostra e nascondi da sfruttare in casi   
-in cui la lista sia troppo lunga, di default la visualizzazzione è posta a false.  
-Vi è la possibilità poi di vedere le prenotazioni per utente preso per email o per treno preso per numero corsa.  
+Lista dello storico mostra tutte le prenotazioni, sono stati inseriti due bottoni mostra e nascondi da sfruttare in casi in cui la lista sia troppo lunga, di default la visualizzazzione è posta a false. Vi è la possibilità poi di vedere le prenotazioni per utente preso per email o per treno preso per numero corsa.  
 NOTA:  
-Elencare gli utenti per come è stato fatto non è un' ottima idea poichè per una lista di ad esempio mille utenti, la selezione  
-risulterebbe difficile.  
+Elencare gli utenti per come è stato fatto non è un' ottima idea poichè per una lista di ad esempio mille utenti, la selezione risulterebbe difficile.  
 
 
-La web app proposta è distaccata dall'idea di una vera e propia web app che potrebbe essere effettivamente utilizzata, ma è  
-stata realizzata a scopo di apprendimento e test delle varie funzionalità che spring ed angular offrono.  
-(Il design infatti è assente e si è fatto uso di  poche e semplici linee di codice scss).  
+La web app proposta è distaccata dall'idea di una vera e propia web app che potrebbe essere effettivamente utilizzata, ma è stata realizzata a scopo di apprendimento e test delle varie funzionalità che spring ed angular offrono. (Il design infatti è assente e si è fatto uso di  poche e semplici linee di codice scss).  
 
 ---
 
@@ -101,9 +88,7 @@ CREATE TABLE prenotazione(
 );  
 
 ## Informazioni aggiuntive:
-Nei controller, ad esempio in TrenoController per eliminare un treno, è stato volutamente lasciato RequestMethod.Post,    
-ma è stato anche testato in questo caso specifico con RequestMethod.Delete.  
-(Se si vuole usare delete e non post va cambiato ovviamente anche sul front-end l'http request usato).  
+Nei controller, ad esempio in TrenoController per eliminare un treno, è stato volutamente lasciato RequestMethod.Post, ma è stato anche testato in questo caso specifico con RequestMethod.Delete.(Se si vuole usare delete e non post va cambiato ovviamente anche sul front-end l'http request usato).  
 
 Si allegano screenshoots di possibili contenuti delle tabelle del db.  
 
